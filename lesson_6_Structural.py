@@ -29,6 +29,33 @@ if weather == 'hot' and money > pool_price and len_of_weather == 3:
 print('have fun')
 
 
+#scope
+
+if 5 < 7:
+	result = True
+	print(result)
+print(result)
+
+
+#if else
+
+a = 10
+b = 13
+
+if a < b:
+	print('a < b')
+else:
+	print('a is not less than b')
+
+
+
+
+
+
+
+
+
+
 
 
 
