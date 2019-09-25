@@ -13,20 +13,20 @@ if My_num1 > My_num2 and My_num1 > My_num3:
 	print("First value is the greatest")
 
 
-weather = "cold"
+weather = "hot"
 
-a = 5
-b = 3
+money = 100
+pool_price = 45
 
-message = "hellow world"
+len_of_weather = len(weather)
 
-len_of_message = len(message)
+if weather == 'hot' and money > pool_price and len_of_weather == 3:
+	print('go to the pool')
+	if money > 90:
+		print ("Invite a girl to go with you")
 
 
-if weather == 'cold' and a > B and len_of_message > 3:
-	print('It works')
-
-print('our code ends')
+print('have fun')
 
 
 
