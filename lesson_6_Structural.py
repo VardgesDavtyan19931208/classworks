@@ -57,7 +57,7 @@ if a > b:
 elif a < b:
 	print('a < b')
 else:
-	print('a=b')
+	print('a = b')
 
 
 
