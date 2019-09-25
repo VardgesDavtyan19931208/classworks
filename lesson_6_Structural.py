@@ -47,6 +47,18 @@ if a < b:
 else:
 	print('a is not less than b')
 
+#else if
+
+a = 18
+b = 18
+
+if a > b:
+	print('a > b')
+elif a < b:
+	print('a < b')
+else:
+	print('a=b')
+
 
 
 
