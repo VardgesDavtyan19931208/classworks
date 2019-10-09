@@ -12,4 +12,4 @@ print("Your surname us " + user_info[1])
 nested_tuple = ((1,2), (3,4), (5,6))
 
 print(nested_tuple[0])
-print(nested_tuple[0][0])
+print(nested_tuple[0][0], nested_tuple[2][0])
