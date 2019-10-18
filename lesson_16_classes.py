@@ -17,7 +17,7 @@
 
 class BankAccount:
 	def __init__(self, name, balance = 0.0):
-		self.log("Account cerated")
+		self.log("Account created")
 		self.name = name
 		self.balance = balance
 
@@ -26,7 +26,7 @@ class BankAccount:
 
 	def deposit(self, amount):
 		self.balance += amount
-		self.log("+" str(amount)+": " + str (self.balance))
+		self.log("+" + str(amount)+": " + str (self.balance))
 
 	def withdraw(self, amount):
 		self.balance -= amount
@@ -38,8 +38,15 @@ class BankAccount:
 
 
 my_bank_account = BankAccount("Jirayr Melikyan")
-my_bank_account.deposit(20.0)
+my_bank_account.deposit(30.0)
 my_bank_account.getBalance()
 my_bank_account.withdraw(10.0)
+my_bank_account.getBalance()
+
+
+my_bank_account = BankAccount("Vardges Davtyan")
+my_bank_account.deposit(15.0)
+my_bank_account.getBalance()
+my_bank_account.withdraw(5.0)
 my_bank_account.getBalance()
 
